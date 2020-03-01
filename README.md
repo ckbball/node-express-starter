@@ -2,7 +2,7 @@
 A starter project using node and express to build REST API's
 
 You will need to create a config folder from the root folder and add a db.js file to config.
-Inside db.js add this
+Inside db.js add this:
 `
 const mongoose = require("mongoose");
 const config = require("config");
@@ -30,7 +30,7 @@ module.exports = connectDB;
 And this will allow you to connect to MongoDB instance you have set up.
 
 Also in the config folder you will need to add a default.json file.
-inside the file you need to add
+inside the file you need to add:
 `
 {
   "MONGO_URI": "<your mongo instance connection string>",
